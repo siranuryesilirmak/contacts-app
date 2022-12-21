@@ -1,0 +1,32 @@
+#container {
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list>li {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
